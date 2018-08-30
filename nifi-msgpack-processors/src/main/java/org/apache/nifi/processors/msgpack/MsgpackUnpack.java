@@ -78,7 +78,7 @@ import java.util.Set;
 @WritesAttributes({@WritesAttribute(attribute="", description="")})
 public class MsgpackUnpack extends AbstractProcessor {
 
-   public static final String FORMAT = "unpack";
+   public static final String FORMAT = "Json";
 
     public static final PropertyDescriptor ACTION_PROPERTY = new PropertyDescriptor
             .Builder().name("FORMAT")
